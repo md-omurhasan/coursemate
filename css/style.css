@@ -9,3 +9,95 @@ a {
 
 /* common csss ends */
 
+/* banner css custom */
+#banner .carousel-item {
+    position: relative !important;
+}
+#banner .carousel-item .img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .carousel-item .overlay {
+    width: 100% ;
+    height: 100% ;
+    background: rgba(0,0,0,0.5) ;
+    position: absolute !important;
+    top: 0 ;
+    left: 0 ;
+}
+/* banner button customization  */
+#banner .btncus{
+    background: #289BDE;
+    color: #ffff;
+}
+
+
+
+
+
+/* responsive customize */
+@media only screen and (max-width: 576px)  {
+   #banner .carousel-item .overlay h1{
+      font-size:12px !important;
+      font-weight: 500 !important;
+      margin-top: 0px !important;
+    }
+    #banner .carousel-item .overlay p{
+        font-size:9px !important;
+        font-weight: 600 !important;
+        margin-bottom: 10px !important;
+      }
+      #banner .carousel-item .overlay .btncus{
+        width: 130px !important;
+      
+        font-size: 14px !important;
+        font-weight: 400 !important;
+      }
+    
+}
+
+
+
+
+@media only screen and (min-width: 577px) and (max-width:768px)  {
+    #banner .carousel-item .overlay h1 {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        margin-top: 0px !important;
+    }
+     #banner .carousel-item .overlay p{
+         font-size:9px !important;
+         font-weight: 300 !important;
+
+         width: 25% !important;
+      
+       }
+       #banner .carousel-item .overlay .btncus {
+        width: 82px !important;
+        font-size: 8px !important;
+        font-weight: 300 !important;
+    }
+     
+ }
+ @media only screen and (min-width: 769px) and (max-width:992px)  {
+    #banner .carousel-item .overlay h1 {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        margin-top: 0px !important;
+    }
+     #banner .carousel-item .overlay p{
+         font-size:18px !important;
+         font-weight: 400 !important;
+
+       
+      
+       }
+       #banner .carousel-item .overlay .btncus {
+        width: 140px !important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+     
+ }
+
