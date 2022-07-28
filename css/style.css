@@ -35,7 +35,6 @@ a {
 
 
 
-
 /* responsive customize */
 @media only screen and (max-width: 576px)  {
    #banner .carousel-item .overlay h1{
@@ -53,6 +52,12 @@ a {
       
         font-size: 14px !important;
         font-weight: 400 !important;
+      }
+      #course .title h1{
+        font-size: 20px !important ;
+      }
+      #course .title p{
+        font-size: 14px !important;
       }
     
 }
@@ -78,6 +83,13 @@ a {
         font-size: 8px !important;
         font-weight: 300 !important;
     }
+    #course .title h1{
+        font-size: 26px !important ;
+      }
+      #course .title p{
+        font-size: 20px !important;
+      }
+    
      
  }
  @media only screen and (min-width: 769px) and (max-width:992px)  {
@@ -98,6 +110,12 @@ a {
         font-size: 18px !important;
         font-weight: 500 !important;
     }
-     
+
+    #course .title h1{
+        font-size: 30pxpx !important ;
+      }
+      #course .title p{
+        font-size: 25px !important;
+      }
  }
 
