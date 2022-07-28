@@ -45,7 +45,7 @@ text-align: center;
 
  /* elearn section customization */
  #elarn{
-    background: #1691d8f5 ;
+    background: #F4FAFD;
  }
 .read{
     background: #289BDE;
@@ -60,7 +60,10 @@ text-align: center;
     width: 100%;
     height: 100%;
 }
-
+/* registration part starts here */
+#register{
+  background: #289BDE;
+}
 
 /* responsive customize */
 @media only screen and (max-width: 576px)  {
@@ -86,7 +89,15 @@ text-align: center;
       #course .title p{
         font-size: 14px !important;
       }
-    
+      #register .join {
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #register .join .pp{
+        width: 277px !important;
+      }
 }
 
 
@@ -116,7 +127,14 @@ text-align: center;
       #course .title p{
         font-size: 20px !important;
       }
-    
+      #register .join {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #register .join .pp{
+        width: 277px !important;
+      }
      
  }
  @media only screen and (min-width: 769px) and (max-width:992px)  {
@@ -143,6 +161,10 @@ text-align: center;
       }
       #course .title p{
         font-size: 25px !important;
+      }
+      #register .join {
+        justify-content: center;
+        align-items: center;
       }
  }
 
