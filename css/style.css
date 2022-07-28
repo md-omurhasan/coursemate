@@ -98,6 +98,10 @@ text-align: center;
       #register .join .pp{
         width: 277px !important;
       }
+      #questions .accordi {
+        width: 100% !important;
+      }
+     
 }
 
 
@@ -135,6 +139,9 @@ text-align: center;
       #register .join .pp{
         width: 277px !important;
       }
+      #questions .accordi {
+        width: 100% !important;
+      }
      
  }
  @media only screen and (min-width: 769px) and (max-width:992px)  {
@@ -166,5 +173,9 @@ text-align: center;
         justify-content: center;
         align-items: center;
       }
+      #questions .accordi {
+        width: 100% !important;
+      }
+     
  }
 
