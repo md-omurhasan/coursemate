@@ -32,7 +32,34 @@ a {
     color: #ffff;
 }
 
+/* course section css */
+#course .see{
+    background: #289BDE;
+    color: #ffff;
+}
+.btn-position{
+text-align: center;
+}
 
+
+
+ /* elearn section customization */
+ #elarn{
+    background: #1691d8f5 ;
+ }
+.read{
+    background: #289BDE;
+    color: #ffff;
+}
+
+.img-div {
+    width: 100%;
+    height: 100%;
+}
+.img-div img {
+    width: 100%;
+    height: 100%;
+}
 
 
 /* responsive customize */
