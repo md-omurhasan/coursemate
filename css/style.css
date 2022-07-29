@@ -1,192 +1,255 @@
 /* common csss start*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* common csss ends */
 
 /* banner css custom */
 #banner .carousel-item {
-    position: relative !important;
+  position: relative !important;
 }
-#banner .carousel-item .img{
-    width: 100%;
-    height: 100%;
+
+#banner .carousel-item .img {
+  width: 100%;
+  height: 100%;
 }
 
 #banner .carousel-item .overlay {
-    width: 100% ;
-    height: 100% ;
-    background: rgba(0,0,0,0.5) ;
-    position: absolute !important;
-    top: 0 ;
-    left: 0 ;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute !important;
+  top: 0;
+  left: 0;
 }
+
 /* banner button customization  */
-#banner .btncus{
-    background: #289BDE;
-    color: #ffff;
+#banner .btncus {
+  background: #289BDE;
+  color: #ffff;
 }
 
 /* course section css */
-#course .see{
-    background: #289BDE;
-    color: #ffff;
-}
-.btn-position{
-text-align: center;
+#course .see {
+  background: #289BDE;
+  color: #ffff;
 }
 
+.btn-position {
+  text-align: center;
+}
 
 
- /* elearn section customization */
- #elarn{
-    background: #F4FAFD;
- }
-.read{
-    background: #289BDE;
-    color: #ffff;
+
+/* elearn section customization */
+#elarn {
+  background: #F4FAFD;
+  margin-bottom: 200px !important;
+}
+
+.read {
+  background: #289BDE;
+  color: #ffff;
 }
 
 .img-div {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 .img-div img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 /* registration part starts here */
-#register{
+#register {
   background: #289BDE;
 }
 
+/* students success part css */
+#success-part {
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 310px;
+  transition: 0.5s;
+}
+
+.card:hover .card-body {
+  background: #289BDE;
+  color: #ffff;
+}
+
+/* footer css */
+footer {
+  background: #161616;
+}
+
+footer .iconcolor {
+  color: #289BDE;
+  font-size: 30px;
+}
+
 /* responsive customize */
-@media only screen and (max-width: 576px)  {
-   #banner .carousel-item .overlay h1{
-      font-size:12px !important;
-      font-weight: 500 !important;
-      margin-top: 0px !important;
-    }
-    #banner .carousel-item .overlay p{
-        font-size:9px !important;
-        font-weight: 600 !important;
-        margin-bottom: 10px !important;
-      }
-      #banner .carousel-item .overlay .btncus{
-        width: 130px !important;
-      
-        font-size: 14px !important;
-        font-weight: 400 !important;
-      }
-      #course .title h1{
-        font-size: 20px !important ;
-      }
-      #course .title p{
-        font-size: 14px !important;
-      }
-      #register .join {
-     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #register .join .pp{
-        width: 277px !important;
-      }
-      #questions .accordi {
-        width: 100% !important;
-      }
-      #company-logo{
-        display: none;
-      }
-     
-     
+@media only screen and (max-width: 576px) {
+  #banner .carousel-item .overlay h1 {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: 0px !important;
+  }
+
+  #banner .carousel-item .overlay p {
+    font-size: 9px !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+  }
+
+  #banner .carousel-item .overlay .btncus {
+    width: 130px !important;
+
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+
+  #course .title h1 {
+    font-size: 20px !important;
+  }
+
+  #course .title p {
+    font-size: 14px !important;
+  }
+
+  #register .join {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #register .join .pp {
+    width: 277px !important;
+  }
+
+  #questions .accordi {
+    width: 100% !important;
+  }
+
+  #company-logo {
+    display: none;
+  }
+
+
 }
 
 
 
 
-@media only screen and (min-width: 577px) and (max-width:768px)  {
-    #banner .carousel-item .overlay h1 {
-        font-size: 12px !important;
-        font-weight: 500 !important;
-        margin-top: 0px !important;
-    }
-     #banner .carousel-item .overlay p{
-         font-size:9px !important;
-         font-weight: 300 !important;
+@media only screen and (min-width: 577px) and (max-width:768px) {
+  #banner .carousel-item .overlay h1 {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: 0px !important;
+  }
 
-         width: 25% !important;
-      
-       }
-       #banner .carousel-item .overlay .btncus {
-        width: 82px !important;
-        font-size: 8px !important;
-        font-weight: 300 !important;
-    }
-    #course .title h1{
-        font-size: 26px !important ;
-      }
-      #course .title p{
-        font-size: 20px !important;
-      }
-      #register .join {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #register .join .pp{
-        width: 277px !important;
-      }
-      #questions .accordi {
-        width: 100% !important;
-      }
-      #company-logo{
-        display: none;
-      }
-     
- }
- @media only screen and (min-width: 769px) and (max-width:992px)  {
-    #banner .carousel-item .overlay h1 {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-        margin-top: 0px !important;
-    }
-     #banner .carousel-item .overlay p{
-         font-size:18px !important;
-         font-weight: 400 !important;
+  #banner .carousel-item .overlay p {
+    font-size: 9px !important;
+    font-weight: 300 !important;
 
-       
-      
-       }
-       #banner .carousel-item .overlay .btncus {
-        width: 140px !important;
-        font-size: 18px !important;
-        font-weight: 500 !important;
-    }
+    width: 25% !important;
 
-    #course .title h1{
-        font-size: 30pxpx !important ;
-      }
-      #course .title p{
-        font-size: 25px !important;
-      }
-      #register .join {
-        justify-content: center;
-        align-items: center;
-      }
-      #questions .accordi {
-        width: 100% !important;
-      }
-      #company-logo{
-        display: none;
-      }
-     
-     
- }
+  }
 
+  #banner .carousel-item .overlay .btncus {
+    width: 82px !important;
+    font-size: 8px !important;
+    font-weight: 300 !important;
+  }
+
+  #course .title h1 {
+    font-size: 26px !important;
+  }
+
+  #course .title p {
+    font-size: 20px !important;
+  }
+
+  #register .join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #register .join .pp {
+    width: 277px !important;
+  }
+
+  #questions .accordi {
+    width: 100% !important;
+  }
+
+  #company-logo {
+    display: none;
+  }
+
+  #success-part .kadu {
+    margin-top: 5px;
+    margin-right: 5px !important;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:992px) {
+  #banner .carousel-item .overlay h1 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-top: 0px !important;
+  }
+
+  #banner .carousel-item .overlay p {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+
+
+
+  }
+
+  #banner .carousel-item .overlay .btncus {
+    width: 140px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+
+  #course .title h1 {
+    font-size: 30pxpx !important;
+  }
+
+  #course .title p {
+    font-size: 25px !important;
+  }
+
+  #register .join {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #questions .accordi {
+    width: 100% !important;
+  }
+
+  #company-logo {
+    display: none;
+  }
+
+  #success-part .kadu {
+    margin-top: 5px;
+    margin-right: 5px !important;
+  }
+}
